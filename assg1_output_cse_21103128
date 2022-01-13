@@ -1,0 +1,36 @@
+#ques1 output
+Enter first number :3
+Enter second number :5
+Enter third number :7
+The average of three numbers is :
+5.0
+
+
+#ques2 output
+enter your gross income :1000000
+Enter your number of dependents :20
+Your income tax is :
+186000.0
+
+
+#ques3 output
+Enter your SID :21103128
+Enter your name :krushna birhare
+Enter your Gender :male
+Enter your course name :python
+Enter your CGPA :8.0
+['21103128', 'krushna birhare', 'male', 'python', 8.0]
+
+
+#ques4 output
+Enter marks of students :20
+Enter marks of students :24
+Enter marks of students :25
+Enter marks of students :28
+Enter marks of students :29
+['20', '24', '25', '28', '29']
+
+
+#ques5 output
+(A) :  ['Red', 'Green', 'White', 'Pink', 'Yellow']
+(B) : ['Red', 'Green', 'White', 'Purple', 'Yellow']
