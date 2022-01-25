@@ -1,0 +1,105 @@
+#Q1
+#_a
+print("(a)")
+A=("Python is a case sensitive language")
+print("lenght of the given string :",len(A))
+#_b
+print("(b)")
+reverse_A=A[-1::-1]
+print(reverse_A)
+#_c
+print("(c)")
+A=A[10:26]
+print(A)
+#_d
+print("(d)")
+A=input("") #type-Python is a case sensitive language
+newstring=A.replace("a case sensitive","object oriented")
+print(newstring)
+#_e
+print("(e)")
+index_a=A.find('a')
+print("index of a:",index_a)
+#f
+print("(f)")
+removed_whitespaces=A.replace(" ","")
+print(removed_whitespaces)
+
+
+
+#Q_2
+Name="Krushna Birhare"
+SID=21103128
+dept_name="CSE"
+CGPA="8.0"
+
+print("Hey,%s Here!\nMy SID is %d\nI am from %s department and my CGPA is %s"%(Name,SID,dept_name,CGPA))
+
+
+#Q_3
+#a=56 b=10
+a=0b111000
+b=0b1010
+
+#(a)
+print("(a)")
+#&
+print(bin(a&b))
+
+#(b)
+print("(b)")
+#|
+print(bin(a|b))
+
+#(c)
+print("(c)")
+#^
+print(bin(a^b))
+
+#(d)
+print("(d)")
+#a<<2 b<<2 ,left shift 2
+print(bin(a<<2))
+print(bin(b<<2))
+
+#(e)
+print("(e)")
+#a>>2 b>>4 right shift a with 2 bits and b with 4 bits
+print(bin(a>>2))
+print(bin(b>>4))
+
+
+#Q_4
+num_1=int(input("enter a number:"))
+num_2=int(input("enter a number:"))
+num_3=int(input("enter a number:"))
+
+if(num_1>num_2):
+    if(num_1>num_3):
+        print(num_1,"is greatest number")
+    else:
+        print(num_3,"is greatest number")
+else:
+    if(num_2>num_3):
+        print(num_2,"is greatest number")
+    else:
+        print(num_3,"is greatest number")
+
+
+#_5
+user_input=input("sentence:")
+if("name"in user_input):
+    print("Yes")
+else:
+    print("No")
+    
+    
+    #Q_6
+side_1=int(input("lenght of s1:"))
+side_2=int(input("lenght of s2:"))
+side_3=int(input("lenght of s3:"))
+
+if(side_1+side_2>side_3 and side_2+side_3>side_1 and side_1+side_3>side_2):
+    print("Yes")
+else:
+    print("No")
